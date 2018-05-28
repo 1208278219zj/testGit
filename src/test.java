@@ -4,5 +4,8 @@ public class test {
         return super.toString();
     }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
